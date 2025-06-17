@@ -276,7 +276,7 @@ int main()
         {
             for (int i = 0; i < total; i++)
             {
-                cout << "\n--- Account [" << i << "] ---" << endl;
+                cout << "--- Account [" << i << "] ---" << endl;
                 all[i]->display();
             }
         }
@@ -284,7 +284,9 @@ int main()
         {
             for (int i = 0; i < total; i++)
             {
+                all[i]->display();
                 all[i]->calculateInterest();
+
             }
         }
         else if (choice == 8)
