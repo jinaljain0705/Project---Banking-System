@@ -244,7 +244,7 @@ int main() {
             }
 
         } else if (choice == 9) {
-            cout << "Thank you for using the Banking System.\n";
+            cout << "Thank you for using the Banking System.";
         } else {
             cout << "Invalid choice or limit reached!" << endl;
         }
